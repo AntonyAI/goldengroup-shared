@@ -18,6 +18,8 @@ torch.cuda.empty_cache()
 from datasets import load_metric, load_dataset
 from datasets.arrow_dataset import Dataset
 
+print("prova")
+
 # rouge loss function
 metric = load_metric("rouge")
 
